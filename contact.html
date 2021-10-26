@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" 
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/contact.css">
+    <title>Kontakt</title>
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+
+        <div class="header__logo">
+            <a href="index.html"><img src="./images/logo (1).png" alt="Balkanlogo"></a>
+        </div>
+
+        <nav class="header__menu">
+            <ul>
+                <li><a href="./index.html">Pocetna</a></li>
+                <li><a href="./cars.html">Ponuda Vozila</a></li>
+                <li><a href="./orderedcars.html">Porucena Vozila</a></li>
+                <li><a href="./rent-a-car.html">Rent-a-car</a></li>
+                <li><a href="./services.html">Ostale Usluge</a></li>
+                <li><a href="./contact.html">Kontakt</a></li>
+            </ul>
+        </nav>
+
+        
+
+        <div class="header__media">
+            <a href="https://www.polovniautomobili.com/balkan-car-sales" target="_blank"><i class="fas fa-car"></i></a>
+            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook" ></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram" ></i></a>
+        </div>
+        <div class="header__burger" id="btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        
+    </header>
+    <!-- END OF HEADER -->
+
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+        <div class="sidebar__header">
+            <a href="index.html"><img src="./images/logo (1).png" alt="Balkanlogo"></a>
+        </div>
+        <!-- links -->
+        <ul class="sidebar__links">
+            <li><a href="./index.html">Pocetna</a></li>
+            <li><a href="./cars.html">Ponuda Vozila</a></li>
+            <li><a href="./orderedcars.html">Porucena Vozila</a></li>
+            <li><a href="./rent-a-car.html">Rent-a-car</a></li>
+            <li><a href="./services.html">Ostale Usluge</a></li>
+            <li><a href="./contact.html">Kontakt</a></li>
+        </ul>
+        <!-- icons -->
+        <ul class="sidebar__icons">
+            <li>
+                <a href="https://www.polovniautomobili.com/balkan-car-sales" target="_blank"><i class="fas fa-car"></i></a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook" ></i></a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram" ></i></a>
+            </li>
+        </ul>
+    </aside>
+    <!-- END OF SIDEBAR -->
+
+    <!-- MAIN  -->
+    <div class="container">
+        <form id="form" class="form">
+            <h2>Kontaktirajte nas</h2>
+            <div class="form__control">
+                <label for="username">Ime</label>
+                <input type="text" id="username" placeholder="Unesite vase ime">
+                <small class="small">Error message</small>
+            </div>
+            <div class="form__control">
+                <label for="email">Email</label>
+                <input type="text" id="email" placeholder="Unesite vas email">
+                <small class="small">Error message</small>
+            </div>
+            <div class="form__control">
+                <label for="number">Telefon</label>
+                <input type="text" id="number"  placeholder="Unesite vas telefon">
+                <small class="small">Error message</small>
+            </div>
+            <div class="form__control">
+                <label for="message__title">Naslov poruke</label>
+                <input type="text" id="message-title" placeholder="Naslov Poruke">
+                <small class="small">Error message</small>
+            </div>
+            <div class="form__control">
+                <label for="message__text">Vasa Poruka</label>
+                <textarea id="message-text" rows="12" cols="35" placeholder="Unesite tekst poruke"></textarea>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+        <div class="contacts">
+            <div class="contacts__adress">
+                <h5>BEOGRAD</h5>
+                <p><strong>Adresa:</strong>Jurija Gagarina 225<p>
+                <p>11070 Novi Beograd</p>
+                <p><strong>Telefon 1:</strong> 064-333-555-7</p>
+                <p><strong>Telefon 2:</strong> 060-333-666-9</p>
+                <strong>E-mail:</strong><p>balkanauto11070@gmail.com</p>
+            </div>
+            <div class="contacts__worktime">
+                <p>Radno Vreme:<strong>Ponedeljak-Petak</strong>08h-20h</p>
+                <p>Radno Vreme:<strong>Subota-Nedelja</strong>09h-16h</p>
+            </div>
+        </div>
+    </div>
+    <div class="map__info"></div>
+    <!-- END OF MAIN  -->
+
+    <!-- FOOTER -->
+
+    <footer class="design_2">
+        <div class="footer__one">
+          <div class="footer__order">
+            <h4>Naručivanje vozila</h4>
+            <p>
+              Ukoliko se automobil koji želite ne nalazi utrenutnoj ponudi, naručite ga na email
+              ili popunjavanjem i biće vam u najkraćem roku nabavljen.
+            </p>
+        
+            <h5><strong>Budite u toku sa najnovijim i najboljim ponudama!</strong></h5>
+          </div>
+        
+        
+        
+        
+          <div class="footer__contact">
+        
+            <h4>Kontaktirajte nas</h4>
+            <p>
+            </p>
+            <li><strong>AUKCIJE</strong> 066/277000, 015/319444</li>
+            <li><strong>PRODAJA</strong> 066/277000, 015/319444, 011/2136642</li>
+            <li><strong>RENTACAR</strong> 066/255500, 011/2136642, 015/319440</li>
+            <li><strong>REGISTRACIJE ŠA</strong> 015/340450, 064/8516920</li>
+            <li><strong>REGISTRACIJE BG</strong> 011/2136642, 064/8516950, 064/8517007</li>
+            <li><strong>TEHNIČKI</strong> 015/319353, 064/8516916, 011/3113775</li>
+            <li><strong>TRANSPORT</strong> 064/8516940, 015/631-031</li>
+            <li><strong>BEX KURIRSKA SLUŽBA</strong> 066/3555000, 011/6555000, 069/640640</li>
+        
+          </div>
+        
+        </div>
+  
+  
+        <section class="footer__two">
+          <div class="footer__logo">
+            <img src="./images/logo (1).png" alt="">
+          </div>
+          <div class="footer__name">
+            _ _ _ balkan auto --- beograd --- 2021 _ _ _
+          </div>
+        </section>
+    </footer>
+      
+      <!--END OF FOOTER  -->
+  
+      <script src="./javascript/contact.js"></script>
+</body>
+</html>
